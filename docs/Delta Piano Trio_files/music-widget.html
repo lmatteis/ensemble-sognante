@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!-- saved from url=(1033)https://apps.wix.com/music-server/music-widget?cacheKiller=1566983010493&compId=comp-jibzlvsx&currency=EUR&deviceType=desktop&externalId=37124201-c632-4f63-938d-bf40d5bbc0af&height=6&instance=LRfJ0ztTXuOOobbqMJk0bFhLrjWPZZ6UoIz77Ll8lso.eyJpbnN0YW5jZUlkIjoiZDgwODRlMjItYzQ3OS00Nzc2LWJlNGUtODMxM2EyMTRiNjFkIiwiYXBwRGVmSWQiOiIxM2JiNWQ2Ny0xYWRkLWU3NzAtYTcxZi0wMDEyNzdlMTdjNTciLCJtZXRhU2l0ZUlkIjoiMWUwNTgwYTUtMWM5YS00Nzc0LThiNDQtMDIyODcwMGU4ODdhIiwic2lnbkRhdGUiOiIyMDE5LTA4LTI4VDA5OjAzOjI5LjMwOVoiLCJ1aWQiOm51bGwsInBlcm1pc3Npb25zIjpudWxsLCJpcEFuZFBvcnQiOiI4OC4xMzUuNjMuMS81NzQyMiIsInZlbmRvclByb2R1Y3RJZCI6IlVubGltaXRlZCArIFdpeCBNdXNpYyIsImRlbW9Nb2RlIjpmYWxzZSwib3JpZ2luSW5zdGFuY2VJZCI6ImMzZTA3NGM0LTEzOTUtNGNkNC1hM2YxLTk3ZDgwYTNmODA0ZSIsImFpZCI6IjA4NTBmOTgyLTMzZDItNGFiNS04NTYxLWY1ODc2MTNiYjA1NSIsImJpVG9rZW4iOiJjNjBkY2U4Ny1kOGUzLTAwMDItMzUwYS04MTNiZDIxYTNlNjciLCJzaXRlT3duZXJJZCI6IjM3MTI0MjAxLTgzN2UtNDg3ZC1hNDZjLWIyNDkwNTRiMjQ4NSJ9&locale=nl&pageId=ptuh9&siteRevision=224&viewMode=site&vsi=b8fbb9af-4150-4127-b1a8-0eaae7028509&width=680 -->
+<html lang="nl" data-focus-source="initial" class="focus-source-initial focus-within"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Music Widget</title>
+  <link rel="dns-prefetch" href="https://collections.wixstatic.com/">
+  <link rel="preconnect" href="https://collections.wixstatic.com/" crossorigin="">
+  <link rel="dns-prefetch" href="https://music.wixstatic.com/">
+  <link rel="preconnect" href="https://music.wixstatic.com/">
+  <script>
+    window.__BASEURL__ = '/music-server/';
+    window.__LOCALE__ = 'en>';
+    window.__STATICS_BASE_URL__ = '//static.parastorage.com/services/music-widget/1.151.0/';
+    window.__SESSION_ID__ = "s-" + Date.now() + "-" + Math.round(Math.random() * Math.pow(10, 10));
+    window.__GET_WINDOW_URL__ = "https://apps.wix.com/music-server/get-window";
+    window.__EXPERIMENTS__ = {"specs.wm.WaitForWidgetVisibilityForResize":"true","specs.wm.New3dsFlow":"true"};
+  </script>
+  <script crossorigin="" src="./polyfill.min(1).js"></script>
+  <script>!function(e){var n={};function t(r){if(n[r])return n[r].exports;var i=n[r]={i:r,l:!1,exports:{}};return e[r].call(i.exports,i,i.exports,t),i.l=!0,i.exports}t.m=e,t.c=n,t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:r})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(t.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var i in e)t.d(r,i,function(n){return e[n]}.bind(null,i));return r},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},t.p="https://static.parastorage.com/services/music-widget/1.151.0/",t.p="undefined"!=typeof window&&window.__STATICS_BASE_URL__||t.p,t(t.s=334)}({21:function(e,n,t){"use strict";var r=this&&this.__assign||function(){return(r=Object.assign||function(e){for(var n,t=1,r=arguments.length;t<r;t++)for(var i in n=arguments[t])Object.prototype.hasOwnProperty.call(n,i)&&(e[i]=n[i]);return e}).apply(this,arguments)};Object.defineProperty(n,"__esModule",{value:!0}),n.getQueryParams=function(e){void 0===e&&(e=window.location.search);var n=e.replace(/^\?/,"");return n?n.split("&").reduce(function(e,n){var t,i=n.split("="),o=i[0],a=i[1];return r({},e,((t={})[o]=a?decodeURIComponent(a):null,t))},{}):{}}},306:function(e,n,t){"use strict";var r=this&&this.__assign||function(){return(r=Object.assign||function(e){for(var n,t=1,r=arguments.length;t<r;t++)for(var i in n=arguments[t])Object.prototype.hasOwnProperty.call(n,i)&&(e[i]=n[i]);return e}).apply(this,arguments)},i=this&&this.__rest||function(e,n){var t={};for(var r in e)Object.prototype.hasOwnProperty.call(e,r)&&n.indexOf(r)<0&&(t[r]=e[r]);if(null!=e&&"function"==typeof Object.getOwnPropertySymbols){var i=0;for(r=Object.getOwnPropertySymbols(e);i<r.length;i++)n.indexOf(r[i])<0&&Object.prototype.propertyIsEnumerable.call(e,r[i])&&(t[r[i]]=e[r[i]])}return t};Object.defineProperty(n,"__esModule",{value:!0});var o=t(21),a=t(7);function c(e){var n=e.endpoint,t=e._,c=void 0===t?Math.random():t,d=i(e,["endpoint","_"]),s=o.getQueryParams();return s.instance&&(d=r({_msid:a.getInstanceValue("metaSiteId"),_appId:a.getInstanceValue("appDefId"),_instanceId:a.getInstanceId(),_siteOwnerId:a.getInstanceValue("siteOwnerId"),_siteMemberId:a.getInstanceValue("uid")||"",_visitorId:a.getInstanceValue("aid"),_viewMode:window.top===window?"standalone":s.viewMode},d)),"//frog.wix.com/"+n+"?"+Object.keys(d).filter(function(e){return void 0!==d[e]}).map(function(e){return encodeURIComponent(e)+"="+encodeURIComponent(String(d[e]))}).join("&")+"&_="+c}n.sendBiEvent=function(e){(new Image).src=c(e)},n.getBiUrl=c},334:function(e,n,t){e.exports=t(338)},338:function(e,n,t){"use strict";t.r(n);var r=t(7),i=t(44);var o=t(306),a=function(){return(a=Object.assign||function(e){for(var n,t=1,r=arguments.length;t<r;t++)for(var i in n=arguments[t])Object.prototype.hasOwnProperty.call(n,i)&&(e[i]=n[i]);return e}).apply(this,arguments)};!function(){if(!Object(i.a)()){window.fedops=window.fedops||{},window.fedops.apps=window.fedops.apps||{},window.fedops.apps["music-widget"]={startLoadTime:window.performance&&window.performance.now()};try{window.fedops.sessionId=window.localStorage.getItem("fedops.logger.sessionId")}catch(e){}window.fedops.sessionId=window.fedops.sessionId||Object(r.getRandomGuid4)(),(new Image).src="//frog.wix.com/fed?appName=music-widget&src=72&evid=14&session_id="+window.fedops.sessionId+"&_="+Math.random()}}(),function(){if(!Object(i.a)()){var e={endpoint:"music-ugc",src:9,albumID:Object(r.getRandomGuid4)(),playerInstanceID:Object(r.getInstanceId)(),sid:Object(r.getBiToken)(),visitorId:Object(r.getVisitorId)()};Object(o.sendBiEvent)(a({},e,{evid:188})),window.addEventListener("unload",function(){var n=Object(o.getBiUrl)(a({},e,{evid:206}));if(!navigator.sendBeacon||!navigator.sendBeacon(n)){var t=window.xhook?new window.xhook.XMLHttpRequest:new XMLHttpRequest;t.open("GET",n,!1),t.send()}})}}()},44:function(e,n,t){"use strict";t.d(n,"a",function(){return i});var r=t(7);function i(){return"13f6a157-4a25-d5c9-c095-e4d531d5c8e2"===Object(r.getInstanceId)()}},7:function(e,n,t){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var r=t(21);n.getVisitorId=a("getVisitorId",function(){return o("uid")||o("aid")||c()}),n.getInstanceId=a("getInstanceId",function(){return o("instanceId")||c()}),n.getBiToken=a("getBiToken",function(){var e=o("biToken");if(e)return e;if("undefined"!=typeof newrelic)try{newrelic.addPageAction("empty-bi-token",{instanceId:n.getInstanceId()})}catch(e){newrelic.noticeError(e)}return c()});var i=a("getInstance",function(){try{var e=r.getQueryParams().instance;if(e){var n=e.split(".")[1];return JSON.parse(atob(n))}}catch(e){try{"undefined"!=typeof newrelic&&(newrelic.noticeError(e),newrelic.addPageAction("invalid-instance",{href:location.href})),console.warn("Cannot get instance")}catch(e){return{}}}return{}});function o(e){return i()[e]}function a(e,n){if(window.memoizedWixUtils||Object.defineProperty(window,"memoizedWixUtils",{value:{}}),!window.memoizedWixUtils[e]){var t={};window.memoizedWixUtils[e]=function(e){return t[e]||(t[e]=n.apply(this,arguments)),t[e]}}return window.memoizedWixUtils[e]}function c(){return"badabada-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,function(e){var n=16*Math.random()|0;return("x"===e?n:3&n|8).toString(16)})}n.getInstanceValue=o,n.getRandomGuid4=c}});
+//# sourceMappingURL=//static.parastorage.com/services/music-widget/1.151.0/critical-widget-player.bundle.min.js.map</script>
+  <script>
+    window.albumCollectionLoaded = JSON.parse(decodeURIComponent("%7B%22tags%22%3A%5B%5D%2C%22date_updated%22%3A%222018-06-16T19%3A01%3A10.628580%22%2C%22items%22%3A%5B%7B%22tags%22%3A%5B%5D%2C%22date_updated%22%3A%222018-06-16T09%3A31%3A16.432240%22%2C%22title%22%3A%22Shostakovich%3A%20Piano%20Trio%20No.%202%20in%20E%20Minor%2C%20Op.%2067%20%20II.%20Allegro%20con%20brio%22%2C%22public_properties%22%3A%7B%22releaseDate%22%3Anull%2C%22explicitLyrics%22%3Afalse%2C%22collaborationType%22%3A%22FEATURING%22%2C%22trackPrice%22%3A%220.00%22%2C%22previewType%22%3A%22FULL%22%2C%22artistName%22%3A%22Delta%20Piano%20Trio%22%2C%22invalid%22%3Afalse%2C%22isrcCode%22%3A%22%22%2C%22wavFile%22%3A%22smusic%2F371242_1dcd448885174fe2bd9a2ff14cbec026.wav%22%2C%22isTrackExternalLinksEnabled%22%3Atrue%2C%22trackName%22%3A%22Shostakovich%3A%20Piano%20Trio%20No.%202%20in%20E%20Minor%2C%20Op.%2067%20%20II.%20Allegro%20con%20brio%22%2C%22trackURL%22%3A%22371242_1dcd448885174fe2bd9a2ff14cbec026-128.mp3%22%2C%22trackVersion%22%3A%22EMPTY%22%2C%22isSubscriptionRequired%22%3Afalse%2C%22purchaseAvail%22%3Afalse%2C%22genre%22%3A%5B%22Classical%22%2C%22Chamber%20Music%22%5D%2C%22collaborators%22%3Anull%2C%22trackDuration%22%3A%2203%3A06%22%2C%22trackCover%22%3A%22%22%2C%22isMinimalTrackPrice%22%3Afalse%2C%22trackLyrics%22%3A%22%22%2C%22trackExternalLinks%22%3A%5B%5D%7D%2C%22sort_order%22%3A-10%2C%22date_created%22%3A%222018-06-16T09%3A28%3A35.045990%22%2C%22type%22%3A%22track%22%2C%22id%22%3A5105650963054592%7D%2C%7B%22tags%22%3A%5B%5D%2C%22date_updated%22%3A%222018-06-16T09%3A31%3A09.595240%22%2C%22title%22%3A%22Lera%20Auerbach%3A%20Piano%20Trio%20No.%201%20%20III.%20Presto%22%2C%22public_properties%22%3A%7B%22releaseDate%22%3Anull%2C%22explicitLyrics%22%3Afalse%2C%22collaborationType%22%3A%22FEATURING%22%2C%22trackPrice%22%3A%220.00%22%2C%22previewType%22%3A%22FULL%22%2C%22artistName%22%3A%22Delta%20Piano%20Trio%22%2C%22invalid%22%3Afalse%2C%22isrcCode%22%3A%22%22%2C%22wavFile%22%3A%22smusic%2F371242_8e2cfbe87eae415eb0957daaebd0ecbb.wav%22%2C%22isTrackExternalLinksEnabled%22%3Atrue%2C%22trackName%22%3A%22Lera%20Auerbach%3A%20Piano%20Trio%20No.%201%20%20III.%20Presto%22%2C%22trackURL%22%3A%22371242_8e2cfbe87eae415eb0957daaebd0ecbb-128.mp3%22%2C%22trackVersion%22%3A%22EMPTY%22%2C%22isSubscriptionRequired%22%3Afalse%2C%22purchaseAvail%22%3Afalse%2C%22genre%22%3A%5B%22Classical%22%2C%22Chamber%20Music%22%5D%2C%22collaborators%22%3Anull%2C%22trackDuration%22%3A%2205%3A05%22%2C%22trackCover%22%3A%22%22%2C%22isMinimalTrackPrice%22%3Afalse%2C%22trackLyrics%22%3A%22%22%2C%22trackExternalLinks%22%3A%5B%5D%7D%2C%22sort_order%22%3A10%2C%22date_created%22%3A%222018-06-16T09%3A29%3A50.130240%22%2C%22type%22%3A%22track%22%2C%22id%22%3A5178081291534336%7D%2C%7B%22tags%22%3A%5B%5D%2C%22date_updated%22%3A%222018-06-16T09%3A30%3A53.455500%22%2C%22title%22%3A%22Lera%20Auerbach%3A%20Piano%20Trio%20No.%202%2C%20Triptych%20-%20The%20Mirror%20with%20Three%20Faces%20%20%20I.%20Prelude%20(Left%20Exterior%20Panel)%20-%20Moderato%20libero%22%2C%22public_properties%22%3A%7B%22releaseDate%22%3Anull%2C%22explicitLyrics%22%3Afalse%2C%22collaborationType%22%3A%22FEATURING%22%2C%22trackPrice%22%3A%220.00%22%2C%22previewType%22%3A%22FULL%22%2C%22artistName%22%3A%22Delta%20Piano%20Trio%22%2C%22invalid%22%3Afalse%2C%22isrcCode%22%3A%22%22%2C%22wavFile%22%3A%22smusic%2F371242_9a2284628e794697a499c844445f1b79.wav%22%2C%22isTrackExternalLinksEnabled%22%3Atrue%2C%22trackName%22%3A%22Lera%20Auerbach%3A%20Piano%20Trio%20No.%202%2C%20Triptych%20-%20The%20Mirror%20with%20Three%20Faces%20%20%20I.%20Prelude%20(Left%20Exterior%20Panel)%20-%20Moderato%20libero%22%2C%22trackURL%22%3A%22371242_9a2284628e794697a499c844445f1b79-128.mp3%22%2C%22trackVersion%22%3A%22EMPTY%22%2C%22isSubscriptionRequired%22%3Afalse%2C%22purchaseAvail%22%3Afalse%2C%22genre%22%3A%5B%22Classical%22%2C%22Chamber%20Music%22%5D%2C%22collaborators%22%3Anull%2C%22trackDuration%22%3A%2204%3A40%22%2C%22trackCover%22%3A%22%22%2C%22isMinimalTrackPrice%22%3Afalse%2C%22trackLyrics%22%3A%22%22%2C%22trackExternalLinks%22%3A%5B%5D%7D%2C%22sort_order%22%3A20%2C%22date_created%22%3A%222018-06-16T09%3A29%3A50.129940%22%2C%22type%22%3A%22track%22%2C%22id%22%3A5741031244955648%7D%5D%2C%22title%22%3A%22The%20Mirror%20with%20Three%20Faces%22%2C%22public_properties%22%3A%7B%22albumCurrency%22%3A%22USD%22%2C%22albumPrice%22%3A%220.00%22%2C%22albumRights%22%3Atrue%2C%22recordLabel%22%3A%22%22%2C%22isAlbumExternalLinksEnabled%22%3Atrue%2C%22upcCode%22%3A%22%22%2C%22albumVersion%22%3A%22EMPTY%22%2C%22albumName%22%3A%22The%20Mirror%20with%20Three%20Faces%22%2C%22albumCover%22%3A%22371242_7d0586e5fabf429da28755ed8aba7fa4~mv2_d_1500_1501_s_2.jpg%22%2C%22releaseDate%22%3Anull%2C%22albumDetails%22%3A%22The%20Delta%20Piano%20Trio%20enjoys%20a%20special%20relationship%20with%20composer%20Lera%20Auerbach.%20Whilst%20searching%20for%20contemporary%20repertoire%20the%20group%20fell%20in%20love%20with%20Auerbach%E2%80%99s%20piano%20trios%2C%20performing%20them%20regularly%20and%2C%20after%20writing%20to%20her%20about%20them%2C%20enjoying%20the%20opportunity%20to%20work%20on%20this%20music%20together%20with%20the%20composer.%20This%20experience%20has%20given%20these%20musicians%20a%20unique%20insight%20into%20Auerbach%E2%80%99s%20piano%20trios.%20The%20title%20of%20this%20CD%20was%20inspired%20by%20Auerbach%E2%80%99s%20second%20piano%20trio%2C%20Tryptych%20%E2%80%93%20The%20Mirror%20with%20Three%20Faces%20(2012).%20The%20work%2C%20which%20is%20at%20the%20heart%20of%20this%20disc%2C%20follows%20the%20physical%20construction%20of%20a%20hinged%20mirror%2C%20and%20Auerbach%20speaks%20of%20it%20in%20terms%20of%20a%20theatre%20piece%20in%20which%20three%20individuals%20have%20their%20own%20separate%20stories%20but%20are%20part%20of%20a%20single%20entity.%20Yet%20there%20is%20an%20ambiguity%20about%20the%20reflection%20in%20the%20mirror%20%E2%80%93%20is%20it%20three%20facets%20of%20the%20same%20person%2C%20or%20three%20separate%20images%3F%5Cn%5CnAuerbach%E2%80%99s%20Piano%20Trio%20No.%201%20is%20one%20of%20her%20earliest%20works%2C%20with%20fascinating%20allusions%20to%2019th-%20and%2020th-century%20musical%20traditions%2C%20yet%20with%20the%20addition%20of%20very%20specific%20effects%20which%20imbue%20her%20music%20with%20a%20unique%20spectrum%20of%20colours.%20The%20influence%20of%20Shostakovich%20is%20audible%20in%20Auerbach%E2%80%99s%20Piano%20Trio%20No.%201%2C%20and%20this%20disc%20opens%20with%20Shostakovich%E2%80%99s%20Piano%20Trio%20No.%202.%20The%20opening%20movement%20is%20a%20paradoxical%20combination%20of%20rigorous%20counterpoint%20and%20ethereal%20harmonics%2C%20followed%20by%20a%20more%20forceful%2C%20rustic%20and%20ironic%20second%20movement.%20A%20mournful%20passacaglia%20follows%2C%20and%20the%20work%20concludes%20with%20a%20haunting%20%E2%80%98Dance%20of%20Death%E2%80%99.%5Cn%5CnThe%20Delta%20Piano%20Trio%20hails%20from%20The%20Netherlands%20but%20met%20in%20Austria%2C%20where%20they%20soon%20discovered%20a%20wonderful%20personal%20and%20music%20rapport%3B%20a%20unique%20and%20infectious%20friendship%20which%20is%20communicated%20in%20the%20joy%20and%20intimacy%20of%20their%20performances.%20The%20Delta%20Piano%20Trio%20has%20performed%20extensively%20in%20Europe%2C%20Russia%2C%20Israel%2C%20China%2C%20South%20Korea%20and%20the%20United%20States%2C%20including%20concerts%20at%20the%20Salzburg%20Chamber%20Music%20Festival%2C%20the%20New%20York%20Chamber%20Music%20Festival%2C%20and%20at%20the%20Concertgebouw%20in%20Amsterdam%3B%20the%20Trio%20has%20also%20won%20prizes%20at%20numerous%20international%20competitions.%5Cn%5Cn%E2%80%A6%5Cn%5CnBooklet%20in%20English%2C%20German%2C%20Dutch%20and%20French.%5CnProgram%20notes%20by%20Hugh%20Collins%20Rice.%22%2C%22isSubscriptionRequired%22%3Afalse%2C%22albumCurrencySymbol%22%3A%22%24%22%2C%22albumType%22%3A%22ALBUM%22%2C%22imageHeight%22%3A1501%2C%22imageWidth%22%3A1500%2C%22genre%22%3A%5B%22Classical%22%2C%22Chamber%20Music%22%5D%2C%22artistName%22%3A%22Delta%20Piano%20Trio%22%2C%22isMinimalAlbumPrice%22%3Afalse%2C%22purchaseAvail%22%3Afalse%2C%22albumExternalLinks%22%3A%5B%7B%22url%22%3A%22https%3A%2F%2Fopen.spotify.com%2Falbum%2F2c1DLlKSSQMYsAVqfpSQ2n%22%2C%22service%22%3A%22SPOTIFY%22%7D%2C%7B%22url%22%3A%22https%3A%2F%2Fitunes.apple.com%2Fus%2Falbum%2Fmirror-three-faces-feat-vera-kooper-irene-enzlin-gerard%2F1347170176%22%2C%22service%22%3A%22ITUNES%22%7D%2C%7B%22url%22%3A%22https%3A%2F%2Fwww.amazon.com%2FMirror-Three-Faces-DELTA-PIANO%2Fdp%2FB077GQ2ZYZ%22%2C%22service%22%3A%22AMAZON%22%7D%5D%7D%2C%22unique_per_user%22%3Afalse%2C%22thumbnail_url%22%3A%22%22%2C%22date_created%22%3A%222018-06-12T18%3A06%3A57.602370%22%2C%22type%22%3A%22MusicAlbum%22%2C%22id%22%3A%2237124201-c632-4f63-938d-bf40d5bbc0af%22%2C%22owner_id%22%3A%22wix-37124201-837e-487d-a46c-b249054b2485%22%7D"));
+  </script>
+  <link rel="stylesheet" href="./widget-player.min.css">
+<style wix-style="">.Title{ font:normal normal bold 30px/1.1em marzo-w00-regular,fantasy; } .Menu{ font:normal normal normal 15px/1.1em helvetica-w01-light,helvetica-w02-light,sans-serif; } .Page-title{ font:normal normal bold 80px/1.1em raleway,sans-serif; } .Heading-XL{ font:normal normal bold 50px/1.1em raleway,sans-serif; } .Heading-L{ font:normal normal normal 30px/1.3em raleway,sans-serif; } .Heading-M{ font:normal normal bold 22px/1.2em raleway,sans-serif; } .Heading-S{ font:normal normal normal 16px/1.3em raleway,sans-serif; } .Body-L{ font:normal normal normal 15px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif; } .Body-M{ font:normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif; } .Body-S{ font:normal normal normal 12px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif; } .Body-XS{ font:normal normal normal 11px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif; } }</style><link type="text/css" rel="stylesheet" href="./css" id="wix-google-fonts"><link type="text/css" rel="stylesheet" href="./languages-woff2.css"><style type="text/css" id="style-1">.app-1.desktop.v2 .app {
+  border: 1px solid rgba(34,34,34,1);
+  background-color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app.app_no-tracks .buy-share {
+  color: rgba(34,34,34,0.4);
+}
+.app-1.desktop.v2 .app.app_no-tracks .control-bar svg path,
+.app-1.desktop.v2 .app.app_no-tracks .play-pause-maxi svg path {
+  fill: rgba(101,101,101,0.4) !important;
+}
+.app-1.desktop.v2 .app.app_no-tracks .progress-bar,
+.app-1.desktop.v2 .app.app_no-tracks .progress-bar__duration,
+.app-1.desktop.v2 .app.app_no-tracks .progress-bar__duration-slash,
+.app-1.desktop.v2 .app.app_no-tracks .progress-bar__played {
+  color: rgba(101,101,101,0.4);
+}
+.app-1.desktop.v2 .app.app_layout_vertical .track .buy-item {
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app.app_layout_vertical .buy-share {
+  margin-top: -4px;
+  padding-bottom: calc(13px + -4px);
+}
+.app-1.desktop.v2 .app.app_layout_vertical .buy-share.buy-share_disabled button {
+  color: rgba(34,34,34,0.4);
+}
+.app-1.desktop.v2 .app.app_layout_vertical.app_hide-cover .buy-share {
+  border-bottom: 1px solid rgba(201,201,201,1);
+}
+.app-1.desktop.v2 .app .wiring-button {
+  border-color: rgba(39,211,180,0.3);
+}
+.app-1.desktop.v2 .app.app_button-style_rect-fill .wiring-button,
+.app-1.desktop.v2 .app.app_button-style_round-fill .wiring-button {
+  background-color: rgba(39,211,180,1);
+  color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app.app_button-style_rect-fill .wiring-button:hover:enabled,
+.app-1.desktop.v2 .app.app_button-style_round-fill .wiring-button:hover:enabled {
+  background-color: rgba(39,211,180,0.7);
+  color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app.app_button-style_rect-fill .wiring-button[disabled],
+.app-1.desktop.v2 .app.app_button-style_round-fill .wiring-button[disabled] {
+  border-color: transparent;
+  background-color: rgba(39,211,180,0.4);
+}
+.app-1.desktop.v2 .app.app_button-style_rect-transparent .wiring-button,
+.app-1.desktop.v2 .app.app_button-style_round-transparent .wiring-button {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_button-style_rect-transparent .wiring-button:hover:enabled,
+.app-1.desktop.v2 .app.app_button-style_round-transparent .wiring-button:hover:enabled {
+  background-color: rgba(39,211,180,1);
+  color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app.app_button-style_rect-transparent .wiring-button[disabled],
+.app-1.desktop.v2 .app.app_button-style_round-transparent .wiring-button[disabled] {
+  color: rgba(39,211,180,0.4);
+}
+.app-1.desktop.v2 .app.app_layout_horizontal {
+  min-width: 680px;
+}
+.app-1.desktop.v2 .app.app_layout_horizontal .track .buy-item {
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app.app_layout_horizontal .share-container__handler {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_horizontal .share-container__handler svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_horizontal.app_overlay-opened {
+  background-color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app.app_layout_list {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.app-1.desktop.v2 .app.app_layout_list.app_basic .track_is-current .track-index-control {
+  border-color: rgba(39,211,180,0.3);
+}
+.app-1.desktop.v2 .app.app_layout_list.app_basic .track-index-control {
+  border-color: rgba(34,34,34,0.3);
+}
+.app-1.desktop.v2 .app.app_layout_list.app_basic .track-index-control:hover {
+  border-color: rgba(39,211,180,0.3);
+}
+.app-1.desktop.v2 .app.app_layout_list.app_cover .track {
+  padding-top: calc(14px + 0px/2);
+  padding-bottom: 0px;
+}
+.app-1.desktop.v2 .app.app_layout_list.app_cover .progress-bar {
+  padding-bottom: calc(0px/2);
+}
+.app-1.desktop.v2 .app.app_layout_list.app_minimal .track {
+  padding-bottom: calc(14px - 3px + 0px/2);
+}
+.app-1.desktop.v2 .app.app_layout_list .track-slider-info {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .album-info-separator {
+  border-top: 1px solid rgba(201,201,201,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .no-tracks {
+  padding-top: 30px;
+  border-top: 1px solid rgba(201,201,201,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .track-info svg {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .track-artist-name {
+  color: rgba(34,34,34,0.6);
+}
+.app-1.desktop.v2 .app.app_layout_list .track {
+  padding-top: calc(14px + 0px/2);
+  padding-bottom: calc(14px + 0px/2);
+}
+.app-1.desktop.v2 .app.app_layout_list .track .buy-item {
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app.app_layout_list .track.app_overlay-opened {
+  background-color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .track.track_is-current .track-artist-name,
+.app-1.desktop.v2 .app.app_layout_list .track:hover .track-artist-name {
+  color: rgba(39,211,180,0.6);
+}
+.app-1.desktop.v2 .app.app_layout_list.app_hide_album_info .track-wrapper:first-child .track {
+  padding-top: 0;
+}
+.app-1.desktop.v2 .app.app_layout_list .share-container__handler {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .share-container__handler svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .track-slider-progress {
+  background-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .track-slider-loaded {
+  background-color: rgba(39,211,180,0.3);
+}
+.app-1.desktop.v2 .app.app_layout_list .track-slider-as-divider {
+  background-color: rgba(201,201,201,1);
+}
+.app-1.desktop.v2 .app.app_layout_list .album-titles .album-name {
+  font: normal normal normal 20px/25px helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .share-container.share-container_disabled svg path {
+  fill: rgba(39,211,180,0.4) !important;
+}
+.app-1.desktop.v2 .app .album-titles .track-name-wrapper,
+.app-1.desktop.v2 .app .album-titles .track-name,
+.app-1.desktop.v2 .app .album-titles .no-tracks {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 20px/25px helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .album-titles .album-name,
+.app-1.desktop.v2 .app .album-titles .artist-name {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .album-titles .buy-item:not(.wiring-button) {
+  color: rgba(39,211,180,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .album-titles .buy-item:not(.wiring-button) svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .album-cover .album-titles-center,
+.app-1.desktop.v2 .app .album-cover .album-titles-left {
+  background: rgba(255,255,255,0.8);
+}
+.app-1.desktop.v2 .app .progress-bar,
+.app-1.desktop.v2 .app .progress-bar__duration,
+.app-1.desktop.v2 .app .progress-bar__played {
+  color: #656565;
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+  font-size: 12px;
+}
+.app-1.desktop.v2 .app .slider-bar {
+  background-color: rgba(101,101,101,0.2);
+}
+.app-1.desktop.v2 .app .slider-loaded {
+  background-color: rgba(39,211,180,0.5);
+}
+.app-1.desktop.v2 .app .slider-progress {
+  background-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .buy-share {
+  color: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .buy-share button {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .buy-share button:hover:enabled {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .buy-share .action-icon {
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .buy-share .wiring-button {
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .volume-slider {
+  border-color: rgba(101,101,101,0.1);
+  background-color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app .volume-slider .volume-slider__total {
+  background-color: rgba(101,101,101,0.3);
+}
+.app-1.desktop.v2 .app .volume-slider .volume-slider__level {
+  background-color: #656565;
+}
+.app-1.desktop.v2 .app .volume-slider .volume-slider__handle {
+  background-color: #656565;
+}
+.app-1.desktop.v2 .app .track,
+.app-1.desktop.v2 .app .no-tracks,
+.app-1.desktop.v2 .app .track .buy-item:not(.wiring-button) {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .track {
+  height: 44px;
+  border-color: rgba(201,201,201,1);
+  line-height: 1.2em;
+}
+.app-1.desktop.v2 .app .track .play svg path,
+.app-1.desktop.v2 .app .track .pause svg path {
+  fill: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .track__list-item:focus .track,
+.app-1.desktop.v2 .app .track__list-item.focus-within .track,
+.app-1.desktop.v2 .app .track__list-item:hover .track,
+.app-1.desktop.v2 .app .track_is-current,
+.app-1.desktop.v2 .app .track_is-playing {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .track__list-item:focus .track .play svg path,
+.app-1.desktop.v2 .app .track__list-item.focus-within .track .play svg path,
+.app-1.desktop.v2 .app .track__list-item:hover .track .play svg path,
+.app-1.desktop.v2 .app .track_is-current .play svg path,
+.app-1.desktop.v2 .app .track_is-playing .play svg path,
+.app-1.desktop.v2 .app .track__list-item:focus .track .pause svg path,
+.app-1.desktop.v2 .app .track__list-item.focus-within .track .pause svg path,
+.app-1.desktop.v2 .app .track__list-item:hover .track .pause svg path,
+.app-1.desktop.v2 .app .track_is-current .pause svg path,
+.app-1.desktop.v2 .app .track_is-playing .pause svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .track .track-share .share-container__handler svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .track .buy-item:not(.wiring-button) {
+  background-color: rgba(39,211,180,1);
+  color: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app .share-icons svg path {
+  fill: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .share-icons > .share-container::before {
+  background: rgba(255,255,255,1);
+}
+.app-1.desktop.v2 .app .track .share-icons .share-button svg path {
+  fill: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) {
+  color: #656565;
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .prev,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .play,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .pause,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .next,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .track-info,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .share {
+  border-color: #656565;
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .prev svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .play svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .pause svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .next svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .track-info svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .share svg path {
+  fill: #656565;
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .prev:hover,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .play:hover,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .pause:hover,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .next:hover,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume:hover,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .track-info:hover,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .share:hover {
+  border-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .prev:hover svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .play:hover svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .pause:hover svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .next:hover svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume:hover svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .track-info:hover svg path,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .share:hover svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume:hover .volume-button {
+  border-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume:hover .volume-button svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume-slider:hover .volume-slider__level,
+.app-1.desktop.v2 .app .control-bar:not(.control-bar_is-disabled) .volume-slider:hover .volume-slider__handle {
+  background-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .current-album {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .play-pause-maxi {
+  border-color: #656565;
+}
+.app-1.desktop.v2 .app .play-pause-maxi .play > svg path,
+.app-1.desktop.v2 .app .play-pause-maxi .pause > svg path {
+  fill: #656565;
+}
+.app-1.desktop.v2 .app .play-pause-maxi:not(.play-pause-maxi_is-disabled):hover {
+  border-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .play-pause-maxi:not(.play-pause-maxi_is-disabled):hover .play > svg path,
+.app-1.desktop.v2 .app .play-pause-maxi:not(.play-pause-maxi_is-disabled):hover .pause > svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .share-overlay {
+  background-color: rgba(255,255,255,0.88);
+}
+.app-1.desktop.v2 .app .share-overlay__close svg path {
+  fill: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .share-overlay-header {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .share-overlay-header:active .share-overlay-header__slider {
+  background-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .share-overlay-header__share-title {
+  color: rgba(34,34,34,1);
+  font: normal normal normal 14px/1.3em helvetica-w01-light,helvetica-w02-light,sans-serif;
+}
+.app-1.desktop.v2 .app .share-overlay-header__slider {
+  background-color: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .share-overlay .share-button path {
+  fill: rgba(34,34,34,1);
+}
+.app-1.desktop.v2 .app .share-overlay .share-button:hover path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v2 .app .circular-progress__background {
+  fill: transparent;
+  stroke: rgba(39,211,180,0.5);
+}
+.app-1.desktop.v2 .app .circular-progress__foreground {
+  fill: transparent;
+  stroke: rgba(39,211,180,1);
+}
+.app-1.desktop.v3 .app .track {
+  height: auto;
+}
+.app-1.desktop.v3 .app.app_layout_vertical.app_preview .control-bar__controls,
+.app-1.desktop.v3 .app.app_layout_horizontal.app_preview .control-bar__controls {
+  border-color: rgba(39,211,180,1);
+}
+.app-1.desktop.v3 .app.app_layout_vertical.app_preview .control-bar__controls svg path,
+.app-1.desktop.v3 .app.app_layout_horizontal.app_preview .control-bar__controls svg path {
+  fill: rgba(39,211,180,1);
+}
+.app-1.desktop.v3 .app.app_layout_vertical.app_preview .buy-wrapper .buy,
+.app-1.desktop.v3 .app.app_layout_horizontal.app_preview .buy-wrapper .buy {
+  color: rgba(39,211,180,1);
+}
+.app-1.desktop.v3 .app.app_layout_vertical .track {
+  padding: calc(16px + 0px) 0;
+}
+.app-1.desktop.v3 .app.app_layout_horizontal .track {
+  padding-top: calc(15px + 0px);
+  padding-bottom: calc(15px + 0px);
+}
+</style></head>
+<body class="focus-within">
+<style>
+  html, body {
+    margin: 0;
+    height: 100%;
+  }
+
+  wix-pl-app {
+    display: block;
+  }
+</style>
+
+
+<wix-pl-app class="v3 v2 wix-pl-app desktop app-1"><section aria-label="Wix Music"><div class="app app_layout_horizontal app_control-bar_maxi app_button-style_rect-fill app_show-tracklist   app_overlay-hidden "><div class="app-content"><audio preload="auto" title="Delta Piano Trio - Shostakovich: Piano Trio No. 2 in E Minor, Op. 67  II. Allegro con brio"></audio><div id="top-part" class="top-part" tabindex="0"><div class="album-cover" role="img" aria-label="Albumhoes" style="padding-top: 0px; background: url(&quot;//static.wixstatic.com/media/371242_7d0586e5fabf429da28755ed8aba7fa4~mv2_d_1500_1501_s_2.jpg/v1/fill/w_340,h_340,q_85,usm_0.66_1.00_0.01/371242_7d0586e5fabf429da28755ed8aba7fa4~mv2_d_1500_1501_s_2_mscwdt.jpg&quot;) center center / 170px 170px no-repeat;"></div><div class="controls"><div class="album-titles-actions"><button class="play-pause-maxi" aria-label="Afspelen" aria-pressed="false"><span class="play" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M40,1A39,39,0,1,1,1,40,39.044,39.044,0,0,1,40,1m0-1A40,40,0,1,0,80,40,40,40,0,0,0,40,0h0ZM30,40V26.734a1.849,1.849,0,0,1,2.83-1.462L43.8,31.794l11.342,6.743a1.676,1.676,0,0,1,0,2.924L43.8,48.206,32.83,54.729A1.849,1.849,0,0,1,30,53.266V40Z"></path></svg></span></button><div class="album-titles"><div class="artist-name">Delta Piano Trio</div><div class="track-name"><div class=""> Shostakovich: Piano Trio No. 2 in E Minor, Op. 67  II. Allegro con brio</div></div><div class="album-name">The Mirror with Three Faces</div></div><div class="buy-share"><div class="buy-share__share"><div class="buy-share__centering-wrapper"><div class="share-album" aria-label="Album delen"><div class="share-container"><button class="share-container__handler"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M9,8a1.991,1.991,0,0,0-1.431.606L3.922,6.522a1.8,1.8,0,0,0,0-1.044L7.569,3.394A2,2,0,1,0,7,2a1.983,1.983,0,0,0,.078.523L3.431,4.606a2,2,0,1,0,0,2.788L7.078,9.478A1.979,1.979,0,0,0,7,10,2,2,0,1,0,9,8Z"></path></svg></span></button><span class="share-icons "><button type="button" class="share-button share-facebook" aria-label="Delen op Facebook"><span class="share-button_icon" aria-hidden="true"><svg width="22px" height="48px" viewBox="0 0 22 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>facebook-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="facebook-icon-svg" transform="translate(-1.000000, 0.000000)" fill-rule="nonzero" fill="#000000"><path d="M23,15.5426206 L15.5075731,15.5426206 L15.5075731,10.5607949 C15.5075731,8.68987787 16.7306664,8.25369489 17.592124,8.25369489 C18.4516215,8.25369489 22.8794547,8.25369489 22.8794547,8.25369489 L22.8794547,0.0288139102 L15.597737,0 C7.51434426,0 5.67480399,6.13438212 5.67480399,10.060029 L5.67480399,15.5426206 L1,15.5426206 L1,24.0178845 L5.67480399,24.0178845 C5.67480399,34.8946388 5.67480399,48 5.67480399,48 L15.5075731,48 C15.5075731,48 15.5075731,34.765473 15.5075731,24.0178845 L22.1424626,24.0178845 L23,15.5426206 Z" id="Shape"></path></g></g></svg></span></button><button type="button" class="share-button share-twitter" aria-label="Delen op Twitter"><span class="share-button_icon" aria-hidden="true"><svg width="61px" height="49px" viewBox="0 0 61 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M60.2934856,5.79985363 C58.0763768,6.78473213 55.6919599,7.44931399 53.1885792,7.74745789 C55.743364,6.21757332 57.7040641,3.79362419 58.627992,0.903611027 C56.237578,2.32175284 53.5913672,3.35142635 50.7729526,3.90659087 C48.517046,1.50246905 45.3018406,0 41.7443082,0 C34.9129452,0 29.3743959,5.53867174 29.3743959,12.3700347 C29.3743959,13.3393696 29.4836908,14.2830024 29.6946925,15.1883269 C19.4139905,14.6731842 10.298571,9.74891409 4.19763611,2.26435157 C3.13320362,4.09066658 2.52308565,6.21524789 2.52308565,8.48314879 C2.52308565,12.7745362 4.7067817,16.5604498 8.02589689,18.7793944 C5.99873863,18.7142825 4.09054419,18.158506 2.42321478,17.2315184 C2.42211326,17.2829225 2.42211326,17.3349386 2.42211326,17.3881786 C2.42211326,23.3804305 6.68608517,28.3799709 12.3454342,29.5172259 C11.3073157,29.7993366 10.2143662,29.9511011 9.0860457,29.9511011 C8.2881803,29.9511011 7.51369153,29.873995 6.75829572,29.7288395 C8.33309771,34.6429512 12.9012107,38.2196989 18.313208,38.3194474 C14.0797114,41.6374611 8.74653372,43.6149287 2.95035181,43.6149287 C1.9523775,43.6149287 0.968110961,43.5556915 0,43.4422353 C5.47527332,46.9525249 11.9766708,49 18.9621238,49 C41.7155464,49 54.1566902,30.1507205 54.1566902,13.8042097 C54.1566902,13.2687501 54.1459198,12.7339025 54.1220536,12.2038281 C56.5381697,10.4600044 58.6363146,8.28120403 60.2934856,5.79985363 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-tumblr" aria-label="Delen op Tumblr"><span class="share-button_icon" aria-hidden="true"><svg width="32px" height="50px" viewBox="0 0 32 50" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M18.2135144,0.188 L18.2135144,11.569 L29.5925144,11.569 L29.5925144,20.357 L18.2135144,20.357 L18.2135144,32.976 C18.2135144,35.831 18.1785144,37.478 18.4795144,38.287 C18.7805144,39.092 19.5345144,39.928 20.3545144,40.41 C21.4465144,41.064 22.6865144,41.39 24.0885144,41.39 C26.5805144,41.39 29.0595144,40.581 31.5245144,38.962 L31.5245144,46.722 C29.4245144,47.712 27.5185144,48.41 25.8135144,48.806 C24.1065144,49.202 22.2645144,49.406 20.2825144,49.406 C18.0325144,49.406 16.7045144,49.121 14.9775144,48.556 C13.2475144,47.984 11.7725144,47.171 10.5535144,46.126 C9.32851444,45.073 8.48551444,43.954 8.01351444,42.771 C7.54051444,41.585 7.30451444,39.867 7.30451444,37.617 L7.30451444,20.357 L0.618514436,20.357 L0.618514436,13.386 C2.55151444,12.759 4.79251444,11.859 6.16851444,10.687 C7.55051444,9.511 8.65651444,8.105 9.48851444,6.46 C10.3265144,4.819 10.9005144,2.726 11.2155144,0.189 L18.2135144,0.189 L18.2135144,0.188 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-blogger" aria-label="Delen op Blogger"><span class="share-button_icon" aria-hidden="true"><svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>blogger-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="blogger-icon" fill-rule="nonzero" fill="#000000"><path d="M48.279,20.151 L47.873,19.311 L47.193,18.78 C46.306,18.085 41.818,18.825 40.609,17.727 C39.752,16.938 39.619,15.516 39.359,13.596 C38.879,9.862 38.572,9.67 37.99,8.41 C35.877,3.922 30.142,0.547 26.203,0.078 L15.531,0.078 C7.136,0.078 0.274,6.955 0.274,15.349 L0.274,33.162 C0.274,41.541 7.136,48.404 15.531,48.404 L33.065,48.404 C41.46,48.404 48.28,41.541 48.327,33.162 L48.421,20.824 L48.279,20.151 Z M15.726,12.559 L24.187,12.559 C25.8,12.559 27.109,13.87 27.109,15.469 C27.109,17.065 25.8,18.391 24.187,18.391 L15.726,18.391 C14.111,18.391 12.803,17.065 12.803,15.469 C12.803,13.87 14.111,12.559 15.726,12.559 Z M32.918,35.845 L15.726,35.845 C14.111,35.845 12.803,34.517 12.803,32.939 C12.803,31.337 14.111,30.033 15.726,30.033 L32.918,30.033 C34.523,30.033 35.824,31.338 35.824,32.939 C35.824,34.517 34.523,35.845 32.918,35.845 Z" id="Shape"></path></g></g></svg></span></button></span></div></div><button class="buy-share__centering-button wiring-button">2</button></div></div><div class="buy-share__buy"><button class="buy buy-share__buy-album wiring-button">Album downloaden</button></div></div></div><div class="control-bar control-bar_type_maxi"><div class="control-bar__controls control-bar__controls_navigation"><button class="prev" type="button" aria-label="Vorig nummer"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="13" viewBox="0 0 22 13"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><g transform="rotate(180 11 6.5)"><path class="cls-1" d="M0.728,0.171A0.485,0.485,0,0,0,0,.6V12.4a0.485,0.485,0,0,0,.728.426l9.113-5.9a0.5,0.5,0,0,0,0-.852Zm10.083,0A0.485,0.485,0,0,0,10.083.6V12.4a0.485,0.485,0,0,0,.728.426l9.113-5.9a0.5,0.5,0,0,0,0-.852ZM21.083,0.1a0.915,0.915,0,0,0-.917.913v10.96a0.917,0.917,0,0,0,1.833,0V1.018A0.915,0.915,0,0,0,21.083.1Z"></path></g></svg></span></button><button class="next" type="button" aria-label="Volgend nummer"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="13" viewBox="0 0 22 13"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M0.728,0.171A0.485,0.485,0,0,0,0,.6V12.4a0.485,0.485,0,0,0,.728.426l9.113-5.9a0.5,0.5,0,0,0,0-.852Zm10.083,0A0.485,0.485,0,0,0,10.083.6V12.4a0.485,0.485,0,0,0,.728.426l9.113-5.9a0.5,0.5,0,0,0,0-.852ZM21.083,0.1a0.915,0.915,0,0,0-.917.913v10.96a0.917,0.917,0,0,0,1.833,0V1.018A0.915,0.915,0,0,0,21.083.1Z"></path></svg></span></button></div><div class="progress-bar" aria-hidden="true"><div class="progress-bar__played"><span aria-hidden="true">00:00</span><span class="sr-only">Afgespeeld nummer: 00:00:00</span></div><div class="progress-bar__slider"><div class="slider slider_is-active" role="slider" disabled="false" aria-label="Voortgangsbalk" aria-valuemin="0" aria-valuemax="186" aria-valuenow="0.0" aria-valuetext="00:00:00 van 00:03:06" tabindex="0"><div class="slider-bar"><div class="slider-loaded" style="width: 0%;"></div><div class="slider-progress" style="width: 0%;"></div></div></div></div><div class="progress-bar__duration-slash" aria-hidden="true">&nbsp;/&nbsp;</div><div class="progress-bar__duration"><span aria-hidden="true">03:06</span><span class="sr-only">Duurtijd nummer: 00:03:06</span></div></div><div class="control-bar__controls"><div class="volume-focus-within"><div class="volume volume_loud"><button class="volume-button" type="button" aria-pressed="false" aria-label="Dempen"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="14" viewBox="0 0 17 13"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M7.3,1.171c-0.5.347-3.492,2.556-3.683,2.69a0.6,0.6,0,0,1-.517.121l-2.088,0a1,1,0,0,0-1,1l0,3a1,1,0,0,0,1,1l2.071,0a0.752,0.752,0,0,1,.607.143c0.2,0.145,3.163,2.379,3.6,2.709s0.7,0.133.7-.343L8,1.516C8,1.018,7.833.8,7.3,1.171ZM14.063,13a0.5,0.5,0,0,1-.356-0.849A8.077,8.077,0,0,0,13.663.834a0.5,0.5,0,1,1,.707-0.7,9.075,9.075,0,0,1,.049,12.722A0.494,0.494,0,0,1,14.063,13Zm-3-2.017a0.5,0.5,0,0,1-.386-0.815,5.8,5.8,0,0,0-.022-7.351,0.5,0.5,0,1,1,.767-0.638,6.793,6.793,0,0,1,.026,8.621A0.5,0.5,0,0,1,11.063,10.986Z"></path></svg></span></button><div class="volume__volume-slider"><div class="volume-slider" role="slider" aria-valuemin="0" aria-valuemax="100" tabindex="0" aria-valuenow="100" aria-valuetext="100% volume"><div class="volume-slider__total"><div class="volume-slider__level" style="height: 100%;"></div><div class="volume-slider__handle-container"><div class="volume-slider__handle" style="bottom: 100%;"></div></div></div></div></div></div></div><button class="track-info" aria-label="Details nummer" type="button"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M5.992,0.5a0.5,0.5,0,1,0-1,0V9.2a3.541,3.541,0,0,0-3.1.41c-1.558.912-2.3,2.46-1.677,3.517S2.545,14.3,4.1,13.384a3.413,3.413,0,0,0,1.889-2.7V0.5ZM8.5,2h7a0.5,0.5,0,0,0,0-1h-7A0.5,0.5,0,0,0,8.5,2Zm7,2h-7a0.5,0.5,0,0,0,0,1h7A0.5,0.5,0,0,0,15.493,4Zm0,3h-7a0.5,0.5,0,0,0,0,1h7A0.5,0.5,0,0,0,15.493,7Z"></path></svg></span></button></div></div></div></div><div class="scroll-area track-list-wrapper" id="tracklist-wrapper" tabindex="-1"><h3 class="sr-only scroll-area__content" id="track-list-header">The Mirror with Three Faces nummerlijst</h3><ol id="tracklist" class="tracklist tracklist_actions_active" tabindex="0" aria-labelledby="track-list-header"><li class="track__list-item" title="Shostakovich: Piano Trio No. 2 in E Minor, Op. 67  II. Allegro con brio" aria-label="Shostakovich: Piano Trio No. 2 in E Minor, Op. 67  II. Allegro con brio" tabindex="0"><div class="track track_show-actions"><div class="track-index"><div class="track-index-number">1</div><div class="track-control-wrapper"><div class="track-index-control" aria-hidden="true"><span class="play"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="20.357" viewBox="0 0 14 19"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M1575,629.5l-14,9.5V620Z" transform="translate(-1561 -620)"></path></svg></span><span class="pause"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="19" viewBox="0 0 15 19"><path d="M264,700h4v19h-4V700Zm11,0h4v19h-4V700Z" transform="translate(-264 -700)"></path></svg></span></div><button class="track-control-button" type="button" aria-label="Afspelen" aria-pressed="false">&nbsp;</button></div></div><div class="track-name" title="Shostakovich: Piano Trio No. 2 in E Minor, Op. 67  II. Allegro con brio">Shostakovich: Piano Trio No. 2 in E Minor, Op. 67  II. Allegro con brio</div><div class="track-duration">03:06</div><div class="track-share" aria-label="Nummer delen"><div class="share-container"><button class="share-container__handler"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M9,8a1.991,1.991,0,0,0-1.431.606L3.922,6.522a1.8,1.8,0,0,0,0-1.044L7.569,3.394A2,2,0,1,0,7,2a1.983,1.983,0,0,0,.078.523L3.431,4.606a2,2,0,1,0,0,2.788L7.078,9.478A1.979,1.979,0,0,0,7,10,2,2,0,1,0,9,8Z"></path></svg></span></button><span class="share-icons "><button type="button" class="share-button share-facebook" aria-label="Delen op Facebook"><span class="share-button_icon" aria-hidden="true"><svg width="22px" height="48px" viewBox="0 0 22 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>facebook-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="facebook-icon-svg" transform="translate(-1.000000, 0.000000)" fill-rule="nonzero" fill="#000000"><path d="M23,15.5426206 L15.5075731,15.5426206 L15.5075731,10.5607949 C15.5075731,8.68987787 16.7306664,8.25369489 17.592124,8.25369489 C18.4516215,8.25369489 22.8794547,8.25369489 22.8794547,8.25369489 L22.8794547,0.0288139102 L15.597737,0 C7.51434426,0 5.67480399,6.13438212 5.67480399,10.060029 L5.67480399,15.5426206 L1,15.5426206 L1,24.0178845 L5.67480399,24.0178845 C5.67480399,34.8946388 5.67480399,48 5.67480399,48 L15.5075731,48 C15.5075731,48 15.5075731,34.765473 15.5075731,24.0178845 L22.1424626,24.0178845 L23,15.5426206 Z" id="Shape"></path></g></g></svg></span></button><button type="button" class="share-button share-twitter" aria-label="Delen op Twitter"><span class="share-button_icon" aria-hidden="true"><svg width="61px" height="49px" viewBox="0 0 61 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M60.2934856,5.79985363 C58.0763768,6.78473213 55.6919599,7.44931399 53.1885792,7.74745789 C55.743364,6.21757332 57.7040641,3.79362419 58.627992,0.903611027 C56.237578,2.32175284 53.5913672,3.35142635 50.7729526,3.90659087 C48.517046,1.50246905 45.3018406,0 41.7443082,0 C34.9129452,0 29.3743959,5.53867174 29.3743959,12.3700347 C29.3743959,13.3393696 29.4836908,14.2830024 29.6946925,15.1883269 C19.4139905,14.6731842 10.298571,9.74891409 4.19763611,2.26435157 C3.13320362,4.09066658 2.52308565,6.21524789 2.52308565,8.48314879 C2.52308565,12.7745362 4.7067817,16.5604498 8.02589689,18.7793944 C5.99873863,18.7142825 4.09054419,18.158506 2.42321478,17.2315184 C2.42211326,17.2829225 2.42211326,17.3349386 2.42211326,17.3881786 C2.42211326,23.3804305 6.68608517,28.3799709 12.3454342,29.5172259 C11.3073157,29.7993366 10.2143662,29.9511011 9.0860457,29.9511011 C8.2881803,29.9511011 7.51369153,29.873995 6.75829572,29.7288395 C8.33309771,34.6429512 12.9012107,38.2196989 18.313208,38.3194474 C14.0797114,41.6374611 8.74653372,43.6149287 2.95035181,43.6149287 C1.9523775,43.6149287 0.968110961,43.5556915 0,43.4422353 C5.47527332,46.9525249 11.9766708,49 18.9621238,49 C41.7155464,49 54.1566902,30.1507205 54.1566902,13.8042097 C54.1566902,13.2687501 54.1459198,12.7339025 54.1220536,12.2038281 C56.5381697,10.4600044 58.6363146,8.28120403 60.2934856,5.79985363 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-tumblr" aria-label="Delen op Tumblr"><span class="share-button_icon" aria-hidden="true"><svg width="32px" height="50px" viewBox="0 0 32 50" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M18.2135144,0.188 L18.2135144,11.569 L29.5925144,11.569 L29.5925144,20.357 L18.2135144,20.357 L18.2135144,32.976 C18.2135144,35.831 18.1785144,37.478 18.4795144,38.287 C18.7805144,39.092 19.5345144,39.928 20.3545144,40.41 C21.4465144,41.064 22.6865144,41.39 24.0885144,41.39 C26.5805144,41.39 29.0595144,40.581 31.5245144,38.962 L31.5245144,46.722 C29.4245144,47.712 27.5185144,48.41 25.8135144,48.806 C24.1065144,49.202 22.2645144,49.406 20.2825144,49.406 C18.0325144,49.406 16.7045144,49.121 14.9775144,48.556 C13.2475144,47.984 11.7725144,47.171 10.5535144,46.126 C9.32851444,45.073 8.48551444,43.954 8.01351444,42.771 C7.54051444,41.585 7.30451444,39.867 7.30451444,37.617 L7.30451444,20.357 L0.618514436,20.357 L0.618514436,13.386 C2.55151444,12.759 4.79251444,11.859 6.16851444,10.687 C7.55051444,9.511 8.65651444,8.105 9.48851444,6.46 C10.3265144,4.819 10.9005144,2.726 11.2155144,0.189 L18.2135144,0.189 L18.2135144,0.188 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-blogger" aria-label="Delen op Blogger"><span class="share-button_icon" aria-hidden="true"><svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>blogger-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="blogger-icon" fill-rule="nonzero" fill="#000000"><path d="M48.279,20.151 L47.873,19.311 L47.193,18.78 C46.306,18.085 41.818,18.825 40.609,17.727 C39.752,16.938 39.619,15.516 39.359,13.596 C38.879,9.862 38.572,9.67 37.99,8.41 C35.877,3.922 30.142,0.547 26.203,0.078 L15.531,0.078 C7.136,0.078 0.274,6.955 0.274,15.349 L0.274,33.162 C0.274,41.541 7.136,48.404 15.531,48.404 L33.065,48.404 C41.46,48.404 48.28,41.541 48.327,33.162 L48.421,20.824 L48.279,20.151 Z M15.726,12.559 L24.187,12.559 C25.8,12.559 27.109,13.87 27.109,15.469 C27.109,17.065 25.8,18.391 24.187,18.391 L15.726,18.391 C14.111,18.391 12.803,17.065 12.803,15.469 C12.803,13.87 14.111,12.559 15.726,12.559 Z M32.918,35.845 L15.726,35.845 C14.111,35.845 12.803,34.517 12.803,32.939 C12.803,31.337 14.111,30.033 15.726,30.033 L32.918,30.033 C34.523,30.033 35.824,31.338 35.824,32.939 C35.824,34.517 34.523,35.845 32.918,35.845 Z" id="Shape"></path></g></g></svg></span></button></span></div></div><div class="track-buy"><button class="buy-item track-price wiring-button" aria-label="Nummer kopen voor 0.00 USD"><span>Nummer downloaden</span></button><span aria-hidden="true"><button class="buy-item track-price track-price__height-adjuster wiring-button" aria-label="Nummer downloaden">&nbsp;</button></span></div></div></li><li class="track__list-item" title="Lera Auerbach: Piano Trio No. 1  III. Presto" aria-label="Lera Auerbach: Piano Trio No. 1  III. Presto" tabindex="0"><div class="track track_show-actions"><div class="track-index"><div class="track-index-number">2</div><div class="track-control-wrapper"><div class="track-index-control" aria-hidden="true"><span class="play"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="20.357" viewBox="0 0 14 19"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M1575,629.5l-14,9.5V620Z" transform="translate(-1561 -620)"></path></svg></span><span class="pause"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="19" viewBox="0 0 15 19"><path d="M264,700h4v19h-4V700Zm11,0h4v19h-4V700Z" transform="translate(-264 -700)"></path></svg></span></div><button class="track-control-button" type="button" aria-label="Afspelen" aria-pressed="false">&nbsp;</button></div></div><div class="track-name" title="Lera Auerbach: Piano Trio No. 1  III. Presto">Lera Auerbach: Piano Trio No. 1  III. Presto</div><div class="track-duration">05:05</div><div class="track-share" aria-label="Nummer delen"><div class="share-container"><button class="share-container__handler"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M9,8a1.991,1.991,0,0,0-1.431.606L3.922,6.522a1.8,1.8,0,0,0,0-1.044L7.569,3.394A2,2,0,1,0,7,2a1.983,1.983,0,0,0,.078.523L3.431,4.606a2,2,0,1,0,0,2.788L7.078,9.478A1.979,1.979,0,0,0,7,10,2,2,0,1,0,9,8Z"></path></svg></span></button><span class="share-icons "><button type="button" class="share-button share-facebook" aria-label="Delen op Facebook"><span class="share-button_icon" aria-hidden="true"><svg width="22px" height="48px" viewBox="0 0 22 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>facebook-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="facebook-icon-svg" transform="translate(-1.000000, 0.000000)" fill-rule="nonzero" fill="#000000"><path d="M23,15.5426206 L15.5075731,15.5426206 L15.5075731,10.5607949 C15.5075731,8.68987787 16.7306664,8.25369489 17.592124,8.25369489 C18.4516215,8.25369489 22.8794547,8.25369489 22.8794547,8.25369489 L22.8794547,0.0288139102 L15.597737,0 C7.51434426,0 5.67480399,6.13438212 5.67480399,10.060029 L5.67480399,15.5426206 L1,15.5426206 L1,24.0178845 L5.67480399,24.0178845 C5.67480399,34.8946388 5.67480399,48 5.67480399,48 L15.5075731,48 C15.5075731,48 15.5075731,34.765473 15.5075731,24.0178845 L22.1424626,24.0178845 L23,15.5426206 Z" id="Shape"></path></g></g></svg></span></button><button type="button" class="share-button share-twitter" aria-label="Delen op Twitter"><span class="share-button_icon" aria-hidden="true"><svg width="61px" height="49px" viewBox="0 0 61 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M60.2934856,5.79985363 C58.0763768,6.78473213 55.6919599,7.44931399 53.1885792,7.74745789 C55.743364,6.21757332 57.7040641,3.79362419 58.627992,0.903611027 C56.237578,2.32175284 53.5913672,3.35142635 50.7729526,3.90659087 C48.517046,1.50246905 45.3018406,0 41.7443082,0 C34.9129452,0 29.3743959,5.53867174 29.3743959,12.3700347 C29.3743959,13.3393696 29.4836908,14.2830024 29.6946925,15.1883269 C19.4139905,14.6731842 10.298571,9.74891409 4.19763611,2.26435157 C3.13320362,4.09066658 2.52308565,6.21524789 2.52308565,8.48314879 C2.52308565,12.7745362 4.7067817,16.5604498 8.02589689,18.7793944 C5.99873863,18.7142825 4.09054419,18.158506 2.42321478,17.2315184 C2.42211326,17.2829225 2.42211326,17.3349386 2.42211326,17.3881786 C2.42211326,23.3804305 6.68608517,28.3799709 12.3454342,29.5172259 C11.3073157,29.7993366 10.2143662,29.9511011 9.0860457,29.9511011 C8.2881803,29.9511011 7.51369153,29.873995 6.75829572,29.7288395 C8.33309771,34.6429512 12.9012107,38.2196989 18.313208,38.3194474 C14.0797114,41.6374611 8.74653372,43.6149287 2.95035181,43.6149287 C1.9523775,43.6149287 0.968110961,43.5556915 0,43.4422353 C5.47527332,46.9525249 11.9766708,49 18.9621238,49 C41.7155464,49 54.1566902,30.1507205 54.1566902,13.8042097 C54.1566902,13.2687501 54.1459198,12.7339025 54.1220536,12.2038281 C56.5381697,10.4600044 58.6363146,8.28120403 60.2934856,5.79985363 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-tumblr" aria-label="Delen op Tumblr"><span class="share-button_icon" aria-hidden="true"><svg width="32px" height="50px" viewBox="0 0 32 50" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M18.2135144,0.188 L18.2135144,11.569 L29.5925144,11.569 L29.5925144,20.357 L18.2135144,20.357 L18.2135144,32.976 C18.2135144,35.831 18.1785144,37.478 18.4795144,38.287 C18.7805144,39.092 19.5345144,39.928 20.3545144,40.41 C21.4465144,41.064 22.6865144,41.39 24.0885144,41.39 C26.5805144,41.39 29.0595144,40.581 31.5245144,38.962 L31.5245144,46.722 C29.4245144,47.712 27.5185144,48.41 25.8135144,48.806 C24.1065144,49.202 22.2645144,49.406 20.2825144,49.406 C18.0325144,49.406 16.7045144,49.121 14.9775144,48.556 C13.2475144,47.984 11.7725144,47.171 10.5535144,46.126 C9.32851444,45.073 8.48551444,43.954 8.01351444,42.771 C7.54051444,41.585 7.30451444,39.867 7.30451444,37.617 L7.30451444,20.357 L0.618514436,20.357 L0.618514436,13.386 C2.55151444,12.759 4.79251444,11.859 6.16851444,10.687 C7.55051444,9.511 8.65651444,8.105 9.48851444,6.46 C10.3265144,4.819 10.9005144,2.726 11.2155144,0.189 L18.2135144,0.189 L18.2135144,0.188 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-blogger" aria-label="Delen op Blogger"><span class="share-button_icon" aria-hidden="true"><svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>blogger-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="blogger-icon" fill-rule="nonzero" fill="#000000"><path d="M48.279,20.151 L47.873,19.311 L47.193,18.78 C46.306,18.085 41.818,18.825 40.609,17.727 C39.752,16.938 39.619,15.516 39.359,13.596 C38.879,9.862 38.572,9.67 37.99,8.41 C35.877,3.922 30.142,0.547 26.203,0.078 L15.531,0.078 C7.136,0.078 0.274,6.955 0.274,15.349 L0.274,33.162 C0.274,41.541 7.136,48.404 15.531,48.404 L33.065,48.404 C41.46,48.404 48.28,41.541 48.327,33.162 L48.421,20.824 L48.279,20.151 Z M15.726,12.559 L24.187,12.559 C25.8,12.559 27.109,13.87 27.109,15.469 C27.109,17.065 25.8,18.391 24.187,18.391 L15.726,18.391 C14.111,18.391 12.803,17.065 12.803,15.469 C12.803,13.87 14.111,12.559 15.726,12.559 Z M32.918,35.845 L15.726,35.845 C14.111,35.845 12.803,34.517 12.803,32.939 C12.803,31.337 14.111,30.033 15.726,30.033 L32.918,30.033 C34.523,30.033 35.824,31.338 35.824,32.939 C35.824,34.517 34.523,35.845 32.918,35.845 Z" id="Shape"></path></g></g></svg></span></button></span></div></div><div class="track-buy"><button class="buy-item track-price wiring-button" aria-label="Nummer kopen voor 0.00 USD"><span>Nummer downloaden</span></button><span aria-hidden="true"><button class="buy-item track-price track-price__height-adjuster wiring-button" aria-label="Nummer downloaden">&nbsp;</button></span></div></div></li><li class="track__list-item" title="Lera Auerbach: Piano Trio No. 2, Triptych - The Mirror with Three Faces   I. Prelude (Left Exterior Panel) - Moderato libero" aria-label="Lera Auerbach: Piano Trio No. 2, Triptych - The Mirror with Three Faces   I. Prelude (Left Exterior Panel) - Moderato libero" tabindex="0"><div class="track track_show-actions"><div class="track-index"><div class="track-index-number">3</div><div class="track-control-wrapper"><div class="track-index-control" aria-hidden="true"><span class="play"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="20.357" viewBox="0 0 14 19"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M1575,629.5l-14,9.5V620Z" transform="translate(-1561 -620)"></path></svg></span><span class="pause"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="19" viewBox="0 0 15 19"><path d="M264,700h4v19h-4V700Zm11,0h4v19h-4V700Z" transform="translate(-264 -700)"></path></svg></span></div><button class="track-control-button" type="button" aria-label="Afspelen" aria-pressed="false">&nbsp;</button></div></div><div class="track-name" title="Lera Auerbach: Piano Trio No. 2, Triptych - The Mirror with Three Faces   I. Prelude (Left Exterior Panel) - Moderato libero">Lera Auerbach: Piano Trio No. 2, Triptych - The Mirror with Three Faces   I. Prelude (Left Exterior Panel) - Moderato libero</div><div class="track-duration">04:40</div><div class="track-share" aria-label="Nummer delen"><div class="share-container"><button class="share-container__handler"><span aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 11 12"><defs><style> .cls-1 { fill-rule: evenodd; } </style></defs><path class="cls-1" d="M9,8a1.991,1.991,0,0,0-1.431.606L3.922,6.522a1.8,1.8,0,0,0,0-1.044L7.569,3.394A2,2,0,1,0,7,2a1.983,1.983,0,0,0,.078.523L3.431,4.606a2,2,0,1,0,0,2.788L7.078,9.478A1.979,1.979,0,0,0,7,10,2,2,0,1,0,9,8Z"></path></svg></span></button><span class="share-icons "><button type="button" class="share-button share-facebook" aria-label="Delen op Facebook"><span class="share-button_icon" aria-hidden="true"><svg width="22px" height="48px" viewBox="0 0 22 48" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>facebook-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="facebook-icon-svg" transform="translate(-1.000000, 0.000000)" fill-rule="nonzero" fill="#000000"><path d="M23,15.5426206 L15.5075731,15.5426206 L15.5075731,10.5607949 C15.5075731,8.68987787 16.7306664,8.25369489 17.592124,8.25369489 C18.4516215,8.25369489 22.8794547,8.25369489 22.8794547,8.25369489 L22.8794547,0.0288139102 L15.597737,0 C7.51434426,0 5.67480399,6.13438212 5.67480399,10.060029 L5.67480399,15.5426206 L1,15.5426206 L1,24.0178845 L5.67480399,24.0178845 C5.67480399,34.8946388 5.67480399,48 5.67480399,48 L15.5075731,48 C15.5075731,48 15.5075731,34.765473 15.5075731,24.0178845 L22.1424626,24.0178845 L23,15.5426206 Z" id="Shape"></path></g></g></svg></span></button><button type="button" class="share-button share-twitter" aria-label="Delen op Twitter"><span class="share-button_icon" aria-hidden="true"><svg width="61px" height="49px" viewBox="0 0 61 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M60.2934856,5.79985363 C58.0763768,6.78473213 55.6919599,7.44931399 53.1885792,7.74745789 C55.743364,6.21757332 57.7040641,3.79362419 58.627992,0.903611027 C56.237578,2.32175284 53.5913672,3.35142635 50.7729526,3.90659087 C48.517046,1.50246905 45.3018406,0 41.7443082,0 C34.9129452,0 29.3743959,5.53867174 29.3743959,12.3700347 C29.3743959,13.3393696 29.4836908,14.2830024 29.6946925,15.1883269 C19.4139905,14.6731842 10.298571,9.74891409 4.19763611,2.26435157 C3.13320362,4.09066658 2.52308565,6.21524789 2.52308565,8.48314879 C2.52308565,12.7745362 4.7067817,16.5604498 8.02589689,18.7793944 C5.99873863,18.7142825 4.09054419,18.158506 2.42321478,17.2315184 C2.42211326,17.2829225 2.42211326,17.3349386 2.42211326,17.3881786 C2.42211326,23.3804305 6.68608517,28.3799709 12.3454342,29.5172259 C11.3073157,29.7993366 10.2143662,29.9511011 9.0860457,29.9511011 C8.2881803,29.9511011 7.51369153,29.873995 6.75829572,29.7288395 C8.33309771,34.6429512 12.9012107,38.2196989 18.313208,38.3194474 C14.0797114,41.6374611 8.74653372,43.6149287 2.95035181,43.6149287 C1.9523775,43.6149287 0.968110961,43.5556915 0,43.4422353 C5.47527332,46.9525249 11.9766708,49 18.9621238,49 C41.7155464,49 54.1566902,30.1507205 54.1566902,13.8042097 C54.1566902,13.2687501 54.1459198,12.7339025 54.1220536,12.2038281 C56.5381697,10.4600044 58.6363146,8.28120403 60.2934856,5.79985363 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-tumblr" aria-label="Delen op Tumblr"><span class="share-button_icon" aria-hidden="true"><svg width="32px" height="50px" viewBox="0 0 32 50" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Shape</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M18.2135144,0.188 L18.2135144,11.569 L29.5925144,11.569 L29.5925144,20.357 L18.2135144,20.357 L18.2135144,32.976 C18.2135144,35.831 18.1785144,37.478 18.4795144,38.287 C18.7805144,39.092 19.5345144,39.928 20.3545144,40.41 C21.4465144,41.064 22.6865144,41.39 24.0885144,41.39 C26.5805144,41.39 29.0595144,40.581 31.5245144,38.962 L31.5245144,46.722 C29.4245144,47.712 27.5185144,48.41 25.8135144,48.806 C24.1065144,49.202 22.2645144,49.406 20.2825144,49.406 C18.0325144,49.406 16.7045144,49.121 14.9775144,48.556 C13.2475144,47.984 11.7725144,47.171 10.5535144,46.126 C9.32851444,45.073 8.48551444,43.954 8.01351444,42.771 C7.54051444,41.585 7.30451444,39.867 7.30451444,37.617 L7.30451444,20.357 L0.618514436,20.357 L0.618514436,13.386 C2.55151444,12.759 4.79251444,11.859 6.16851444,10.687 C7.55051444,9.511 8.65651444,8.105 9.48851444,6.46 C10.3265144,4.819 10.9005144,2.726 11.2155144,0.189 L18.2135144,0.189 L18.2135144,0.188 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path></g></svg></span></button><button type="button" class="share-button share-blogger" aria-label="Delen op Blogger"><span class="share-button_icon" aria-hidden="true"><svg width="49px" height="49px" viewBox="0 0 49 49" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>blogger-icon-svg</title><desc>Created with Sketch.</desc><defs></defs><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="blogger-icon" fill-rule="nonzero" fill="#000000"><path d="M48.279,20.151 L47.873,19.311 L47.193,18.78 C46.306,18.085 41.818,18.825 40.609,17.727 C39.752,16.938 39.619,15.516 39.359,13.596 C38.879,9.862 38.572,9.67 37.99,8.41 C35.877,3.922 30.142,0.547 26.203,0.078 L15.531,0.078 C7.136,0.078 0.274,6.955 0.274,15.349 L0.274,33.162 C0.274,41.541 7.136,48.404 15.531,48.404 L33.065,48.404 C41.46,48.404 48.28,41.541 48.327,33.162 L48.421,20.824 L48.279,20.151 Z M15.726,12.559 L24.187,12.559 C25.8,12.559 27.109,13.87 27.109,15.469 C27.109,17.065 25.8,18.391 24.187,18.391 L15.726,18.391 C14.111,18.391 12.803,17.065 12.803,15.469 C12.803,13.87 14.111,12.559 15.726,12.559 Z M32.918,35.845 L15.726,35.845 C14.111,35.845 12.803,34.517 12.803,32.939 C12.803,31.337 14.111,30.033 15.726,30.033 L32.918,30.033 C34.523,30.033 35.824,31.338 35.824,32.939 C35.824,34.517 34.523,35.845 32.918,35.845 Z" id="Shape"></path></g></g></svg></span></button></span></div></div><div class="track-buy"><button class="buy-item track-price wiring-button" aria-label="Nummer kopen voor 0.00 USD"><span>Nummer downloaden</span></button><span aria-hidden="true"><button class="buy-item track-price track-price__height-adjuster wiring-button" aria-label="Nummer downloaden">&nbsp;</button></span></div></div></li></ol></div></div></div></section></wix-pl-app>
+
+<script src="./wix-private.min(2).js"></script>
+
+<script src="./widget-player-desktop.bundle.min.js"></script>
+
+
+
+</body></html>
