@@ -1,0 +1,80 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+.font_2 {
+    font: normal normal bold 80px/1.1em 'Playfair Display', sans-serif;
+    color: #222222;
+}
+
+#comp-jica4w71 {
+    margin-top: 30px;
+    letter-spacing: 8px;
+}
+.instrument {
+    font-family: 'Playfair Display';
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+}
+.color_19 {
+    color: #7c8896;
+}
+
+.ddm1repeaterButton[data-state~='selected'] .ddm1repeaterButtonlabel {
+    color: #adadad;
+}
+.font_2 {
+    line-height: 0.9em !important;
+}
+
+#comp-jixb656ninlineContent {
+    width: auto;
+}
+
+#i6g6mdts {
+    width: auto !important;
+}
+#comp-jixb656n {
+    margin-top: 20px;
+}
+
+#i6g6mdtr {
+    margin: auto;
+    left: 0;
+}
+#comp-jixb4pgf {
+    display: none;
+}
+.font_6 {
+    font-family: 'Playfair Display';
+    letter-spacing: 0;
+}
+.color_19 span {
+    letter-spacing: 0 !important;
+    padding-right: 5px;
+}
+
+#WRchTxt1 {
+    margin: auto;
+    width: auto !important;
+    left: 0;
+}
+
+#i6g6mdts .backcolor_11 {
+    letter-spacing: 0em;
+    padding-left: 118px;
+    background-color: transparent;
+}
+
+#comp-jixb656ninlineContent-gridContainer {
+    margin-left: 50px;
+}
+
+#comp-jixb656n {
+    margin-top: 10px;
+}
+.color_19 span span span {
+    color: white;
+    background-color: transparent !important;
+}
