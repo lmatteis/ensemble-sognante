@@ -26,6 +26,8 @@ window.onload = function() {
     var converter = new showdown.Converter();
     var home = document.querySelector('#PAGES_CONTAINER');
     var main = document.querySelector('#main');
+
+    alert('shit');
     router
         .on({
             biografie: function biografie() {
