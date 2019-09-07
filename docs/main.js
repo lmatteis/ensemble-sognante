@@ -87,7 +87,7 @@ window.onload = function() {
 function setContent(page) {
     var home = document.querySelector('#PAGES_CONTAINER');
     var main = document.querySelector('#main');
-    main.className = page;
+    // main.className = page;
     var converter = new showdown.Converter();
     home.style.display = 'none';
     main.style.display = 'block';
