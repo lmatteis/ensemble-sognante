@@ -64,6 +64,7 @@ body {
 #i6g6mdts .backcolor_11 {
     letter-spacing: 0em;
     padding-left: 118px;
+    font-weight: 100;
     background-color: transparent;
 }
 
@@ -77,4 +78,22 @@ body {
 .color_19 span span span {
     color: white;
     background-color: transparent !important;
+}
+#i6g6mdtr {
+    /* grid-area: auto/auto/2/2; */
+}
+#SITE_FOOTERinlineContent-gridContainer {
+    margin-top: -40px;
+}
+
+#comp-jd4h7u9hitemsContainer li {
+    width: 27px;
+    height: 27px;
+    margin-bottom: 0;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+#comp-jd4h7u9hitemsContainer li img {
+    width: 27px;
 }
