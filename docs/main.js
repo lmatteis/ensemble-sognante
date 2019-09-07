@@ -44,6 +44,7 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
+                alert('fuck what');
                 home.style = 'display: block';
                 main.style = 'display: none';
                 alert('hsdfhsf');
