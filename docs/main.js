@@ -23,12 +23,9 @@ window.onload = function() {
     var hash = '#!'; // Defaults to: '#'
 
     var router = new Navigo(root, useHash, hash);
-    alert('1');
     var converter = new showdown.Converter();
-    alert('2');
     var home = document.querySelector('#PAGES_CONTAINER');
     var main = document.querySelector('#main');
-    alert('3');
     router
         .on({
             biografie: function biografie() {
@@ -47,12 +44,14 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
+                alert(2);
                 home.style = 'display: block';
                 main.style = 'display: none';
                 navHighlight('HOME');
             },
         })
         .resolve();
+    alert(1);
 };
 
 function setContent(page) {
