@@ -76,10 +76,8 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
-                alert(home.style);
-                alert(main.style);
-                home.style = 'display: block';
-                main.style = 'display: none';
+                home.style.display = 'block';
+                main.style.display = 'none';
                 alert('hsdfhsf');
                 navHighlight('HOME');
             },
@@ -92,8 +90,8 @@ function setContent(page) {
     var main = document.querySelector('#main');
     main.className = page;
     var converter = new showdown.Converter();
-    home.style = 'display: none';
-    main.style = 'display: block';
+    home.style.display = 'none';
+    main.style.display = 'block';
     navHighlight(page);
     main.innerHTML = converter.makeHtml(pages[page]);
 }
