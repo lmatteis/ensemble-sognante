@@ -11,12 +11,14 @@ if (!Array.prototype.forEach) {
 var pages;
 
 window.onload = function() {
+    alert(1);
     pages = {
         biografie: document.querySelector('#biografie').innerHTML,
         videos: document.querySelector('#videos').innerHTML,
         fotos: document.querySelector('#fotos').innerHTML,
         contact: document.querySelector('#contact').innerHTML,
     };
+    alert(2);
     var root = null;
     var useHash = true; // Defaults to: false
 
@@ -50,6 +52,7 @@ window.onload = function() {
             },
         })
         .resolve();
+    alert(3);
 };
 
 function setContent(page) {
