@@ -11,23 +11,24 @@ if (!Array.prototype.forEach) {
 var pages;
 
 window.onload = function() {
-    alert(1);
     pages = {
         biografie: document.querySelector('#biografie').innerHTML,
         videos: document.querySelector('#videos').innerHTML,
         fotos: document.querySelector('#fotos').innerHTML,
         contact: document.querySelector('#contact').innerHTML,
     };
-    alert(2);
     var root = null;
     var useHash = true; // Defaults to: false
 
     var hash = '#!'; // Defaults to: '#'
 
     var router = new Navigo(root, useHash, hash);
+    alert('1');
     var converter = new showdown.Converter();
+    alert('2');
     var home = document.querySelector('#PAGES_CONTAINER');
     var main = document.querySelector('#main');
+    alert('3');
     router
         .on({
             biografie: function biografie() {
@@ -52,7 +53,6 @@ window.onload = function() {
             },
         })
         .resolve();
-    alert(3);
 };
 
 function setContent(page) {
