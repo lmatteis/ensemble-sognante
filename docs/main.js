@@ -11,8 +11,8 @@ var pages;
 window.onload = function() {
     pages = {
         biografie: document.querySelector('#biografie').innerHTML,
-        ["video's"]: document.querySelector('#videos').innerHTML,
-        ["foto's"]: document.querySelector('#fotos').innerHTML,
+        videos: document.querySelector('#videos').innerHTML,
+        fotos: document.querySelector('#fotos').innerHTML,
         contact: document.querySelector('#contact').innerHTML,
     };
 
@@ -31,10 +31,10 @@ window.onload = function() {
                 setContent('biografie');
             },
             videos: function() {
-                setContent("video's");
+                setContent('videos');
             },
             fotos: function() {
-                setContent("foto's");
+                setContent('fotos');
             },
             agenda: function() {
                 setContent('agenda');
