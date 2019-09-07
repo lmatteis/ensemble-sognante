@@ -58,8 +58,6 @@ window.onload = function() {
     var home = document.querySelector('#PAGES_CONTAINER');
     var main = document.querySelector('#main');
 
-    alert(home.innerHTML);
-
     router
         .on({
             biografie: function biografie() {
@@ -78,6 +76,8 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
+                alert(home.style);
+                alert(main.style);
                 home.style = 'display: block';
                 main.style = 'display: none';
                 alert('hsdfhsf');
