@@ -78,7 +78,6 @@ window.onload = function() {
             '*': function _() {
                 home.style.display = 'block';
                 main.style.display = 'none';
-                alert('hsdfhsf');
                 navHighlight('HOME');
             },
         })
@@ -98,7 +97,6 @@ function setContent(page) {
 
 function navHighlight(page) {
     var navPs = document.querySelectorAll('nav a p');
-    alert('1');
     navPs.forEach(function(el) {
         // remove selected
         el.className = ''; // find p with this page
