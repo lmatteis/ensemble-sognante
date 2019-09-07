@@ -77,7 +77,6 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
-                alert('fuck what');
                 home.style = 'display: block';
                 main.style = 'display: none';
                 alert('hsdfhsf');
@@ -108,6 +107,5 @@ function navHighlight(page) {
         if (el.innerHTML.replace("'", '', 'g').match(new RegExp(page, 'ig'))) {
             el.className = 'selected';
         }
-        alert('2', el.innerHTML);
     });
 }
