@@ -55,7 +55,7 @@ function setContent(page) {
 
 function navHighlight(page) {
     var navPs = document.querySelectorAll('nav a p')
-    navPs.forEach(el => {
+    navPs.forEach(function(el) {
         // remove selected
         el.className = ''
         // find p with this page
