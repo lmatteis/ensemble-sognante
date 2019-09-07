@@ -44,14 +44,13 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
-                alert(2);
                 home.style = 'display: block';
                 main.style = 'display: none';
+                alert('hsdfhsf');
                 navHighlight('HOME');
             },
         })
         .resolve();
-    alert(1);
 };
 
 function setContent(page) {
@@ -67,6 +66,7 @@ function setContent(page) {
 
 function navHighlight(page) {
     var navPs = document.querySelectorAll('nav a p');
+    alert('1');
     navPs.forEach(function(el) {
         // remove selected
         el.className = ''; // find p with this page
@@ -74,5 +74,6 @@ function navHighlight(page) {
         if (el.innerHTML.replace("'", '', 'g').match(new RegExp(page, 'ig'))) {
             el.className = 'selected';
         }
+        alert('2', el.innerHTML);
     });
 }
