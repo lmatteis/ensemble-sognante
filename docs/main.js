@@ -97,12 +97,13 @@ function setContent(page) {
 
 function navHighlight(page) {
     var navPs = document.querySelectorAll('nav a p');
-    navPs.forEach(function(el) {
+    for (var i = 0; i < navPs.length; i++) {
+        var el = navPs[i];
         // remove selected
         el.className = ''; // find p with this page
 
         if (el.innerHTML.replace("'", '', 'g').match(new RegExp(page, 'ig'))) {
             el.className = 'selected';
         }
-    });
+    }
 }
