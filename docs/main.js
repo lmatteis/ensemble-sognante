@@ -125,7 +125,7 @@ function setContent(page) {
     var home = document.querySelector('#home');
     var pageDiv = document.querySelector('#page');
     // main.className = page;
-    var converter = new showdown.Converter();
+    var converter = new showdown.Converter({ simplifiedAutoLink: true });
     home.style.display = 'none';
     pageDiv.style.display = 'block';
     navHighlight(page);
