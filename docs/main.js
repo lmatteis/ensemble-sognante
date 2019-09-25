@@ -129,7 +129,7 @@ function setContent(page) {
     home.style.display = 'none';
     pageDiv.style.display = 'block';
     navHighlight(page);
-    pageDiv.innerHTML = converter.makeHtml(linkify(content));
+    pageDiv.innerHTML = linkify(converter.makeHtml(content));
 }
 
 function navHighlight(page) {
