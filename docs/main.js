@@ -39,15 +39,9 @@ if (!Array.prototype.forEach) {
     };
 }
 
-var pages;
+var pages = {};
 
 window.onload = function() {
-    pages = {
-        biografie: document.querySelector('#biografie').innerHTML,
-        videos: document.querySelector('#videos').innerHTML,
-        fotos: document.querySelector('#fotos').innerHTML,
-        contact: document.querySelector('#contact').innerHTML,
-    };
     var root = null;
     var useHash = true; // Defaults to: false
 
@@ -76,8 +70,8 @@ window.onload = function() {
                 setContent('contact');
             },
             '*': function _() {
-                home.style.display = 'block';
-                main.style.display = 'none';
+                document.querySelector('#home').style.display = 'block';
+                document.querySelector('#page').style.display = 'none';
                 navHighlight('HOME');
             },
         })
@@ -85,18 +79,22 @@ window.onload = function() {
 };
 
 function setContent(page) {
-    var home = document.querySelector('#PAGES_CONTAINER');
-    var main = document.querySelector('#main');
-    main.className = page;
+    var p = pages[page];
+    var content = p.reduce(function(acc, curr) {
+        return acc + curr;
+    }, '');
+    var home = document.querySelector('#home');
+    var pageDiv = document.querySelector('#page');
+    // main.className = page;
     var converter = new showdown.Converter();
     home.style.display = 'none';
-    main.style.display = 'block';
+    pageDiv.style.display = 'block';
     navHighlight(page);
-    main.innerHTML = converter.makeHtml(pages[page]);
+    pageDiv.innerHTML = converter.makeHtml(content);
 }
 
 function navHighlight(page) {
-    var navPs = document.querySelectorAll('nav a p');
+    var navPs = document.querySelectorAll('#nav li a');
     for (var i = 0; i < navPs.length; i++) {
         var el = navPs[i];
         // remove selected
@@ -106,4 +104,27 @@ function navHighlight(page) {
             el.className = 'selected';
         }
     }
+}
+
+function init(data) {
+    var columns1 = data.feed.entry.filter(function(entry) {
+        if (entry['gs$cell'].col == 1) {
+            return true;
+        }
+    });
+
+    columns1.forEach(function(columnEntry) {
+        // get all entries at this row
+        var row = columnEntry['gs$cell'].row;
+        var atThisRow = data.feed.entry.filter(function(entry) {
+            if (entry['gs$cell'].row == row && entry['gs$cell'].col != 1) {
+                return true;
+            }
+        });
+        pages[columnEntry.content.$t.toLowerCase()] = atThisRow.map(function(
+            entry
+        ) {
+            return entry.content.$t;
+        });
+    });
 }
