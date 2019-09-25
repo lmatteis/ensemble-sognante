@@ -69,6 +69,18 @@ window.onload = function() {
             contact: function contact() {
                 setContent('contact');
             },
+            runa: function contact() {
+                setContent('runa');
+            },
+            kalle: function contact() {
+                setContent('kalle');
+            },
+            elisa: function contact() {
+                setContent('elisa');
+            },
+            laurens: function contact() {
+                setContent('laurens');
+            },
             '*': function _() {
                 document.querySelector('#home').style.display = 'block';
                 document.querySelector('#page').style.display = 'none';
