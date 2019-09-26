@@ -125,3 +125,21 @@ img {
     background-size: cover;
     height: 510px;
 }
+
+.contact .photo {
+    background: url(https://lh3.googleusercontent.com/DtZqVWZm6l2ruTcnvmZEV0CvBj2OidzPdRfbTU8KH3NddPbaMqbQNgTQNufErRl096PzFeOoKCTBC_00wSjcDRKsc0Mwped1NBHSXbvOG0AkQOclajv0W9dv6UBc61l7Of9Bt-k68NZiz7WLLAlx5KMtmgCoyVUPXMGwYDocfFuNjtmk6uWb_xfR81PG8gLk3luNzQl4xNLL0-TFemk8K0sMLYqvRHkAv8WFKKaWeKcQdOkncIqF5EOiP0GUUuDjyymEi2WZqDbsDMI__HrTdt98m98NLc91ZSEFh6eFfsxk0z6zOEqCH_utKM5GgtY4NnNNMsltiyMkAKFdHmg3j2_xhfVDbNcZcDbG_QCEC3B4XmIRjqQfsfN8hLAwI9meblHS9MA3IYoJfv2Lym1NZXRmk57NY8qHt5NPmbJYI8tMRWprU1diZa4zVTH-hr7d3cyaFsPZONL3d2vQdQyBYI-EcV6CCxc8SDpadT-qZqtl-MJBgPWQDdRopJCHXHkmsbXnqArPUaJsCjHiBtkOWK9XKaKv_55H89AXW6QSXqUxEPaqzH7OkvjGQRZMiYUkC3MLLmytOtuLaXbTaBSis6xAXUQSLK5UXTmn9KC7LbUYsUb-BCcL8UHH9LJ16Sb9bmR47yU7hmNn9pHz6j6iTpWZl__ihcEkaMI3ncZfHsHd-4lbRSAbMLM=w2298-h1532-no);
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    margin-top: -90px;
+}
+.contact p {
+    text-align: center;
+    padding-top: 30px;
+}
+.contact p a {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: black;
+}
