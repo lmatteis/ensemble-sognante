@@ -128,7 +128,7 @@ function setContent(page) {
     var converter = new showdown.Converter({ simplifiedAutoLink: true });
     home.style.display = 'none';
     pageDiv.style.display = 'block';
-    pageDiv.className = page;
+    pageDiv.className = page.replace("'", '');
     navHighlight(page);
     pageDiv.innerHTML = converter.makeHtml(content);
 }
@@ -140,7 +140,7 @@ function navHighlight(page) {
         // remove selected
         el.className = ''; // find p with this page
 
-        if (el.innerHTML.replace("'", '', 'g').match(new RegExp(page, 'ig'))) {
+        if (el.innerHTML.match(new RegExp(page, 'ig'))) {
             el.className = 'selected';
         }
     }
