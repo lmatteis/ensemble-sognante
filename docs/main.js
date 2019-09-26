@@ -79,42 +79,45 @@ window.onload = function() {
     var home = document.querySelector('#PAGES_CONTAINER');
     var main = document.querySelector('#main');
 
-    router
-        .on({
-            biografie: function biografie() {
-                setContent('biografie');
-            },
-            ["video's"]: function videos() {
-                setContent("video's");
-            },
-            ["foto's"]: function fotos() {
-                setContent("foto's");
-            },
-            agenda: function agenda() {
-                setContent('agenda');
-            },
-            contact: function contact() {
-                setContent('contact');
-            },
-            runa: function contact() {
-                setContent('runa');
-            },
-            kalle: function contact() {
-                setContent('kalle');
-            },
-            elisa: function contact() {
-                setContent('elisa');
-            },
-            laurens: function contact() {
-                setContent('laurens');
-            },
-            '*': function _() {
-                document.querySelector('#home').style.display = 'block';
-                document.querySelector('#page').style.display = 'none';
-                navHighlight('HOME');
-            },
-        })
-        .resolve();
+    var videos = "video's";
+    var fotos = "foto's";
+    var r = {
+        biografie: function biografie() {
+            setContent('biografie');
+        },
+        agenda: function agenda() {
+            setContent('agenda');
+        },
+        contact: function contact() {
+            setContent('contact');
+        },
+        runa: function contact() {
+            setContent('runa');
+        },
+        kalle: function contact() {
+            setContent('kalle');
+        },
+        elisa: function contact() {
+            setContent('elisa');
+        },
+        laurens: function contact() {
+            setContent('laurens');
+        },
+    };
+
+    r[videos] = function videos() {
+        setContent("video's");
+    };
+    r[fotos] = function fotos() {
+        setContent("foto's");
+    };
+
+    r['*'] = function _() {
+        document.querySelector('#home').style.display = 'block';
+        document.querySelector('#page').style.display = 'none';
+        navHighlight('HOME');
+    };
+    router.on(r).resolve();
 };
 
 function setContent(page) {
