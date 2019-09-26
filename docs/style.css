@@ -117,6 +117,7 @@ img {
     background: url(./data/EnsembleSognante/4.jpg);
     background-size: cover;
     height: 450px;
+    margin-bottom: 30px;
 }
 
 .agenda .photo {
