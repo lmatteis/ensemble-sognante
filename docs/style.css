@@ -124,6 +124,7 @@ img {
     background: url(./data/EnsembleSognante/8.jpg);
     background-size: cover;
     height: 510px;
+    margin-bottom: 30px;
 }
 a {
     color: black;
