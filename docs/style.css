@@ -125,6 +125,9 @@ img {
     background-size: cover;
     height: 510px;
 }
+a {
+    color: black;
+}
 
 .contact .photo {
     background: url(./data/EnsembleSognante/1.jpg);
