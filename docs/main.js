@@ -84,11 +84,11 @@ window.onload = function() {
             biografie: function biografie() {
                 setContent('biografie');
             },
-            videos: function videos() {
-                setContent('videos');
+            ["video's"]: function videos() {
+                setContent("video's");
             },
-            fotos: function fotos() {
-                setContent('fotos');
+            ["foto's"]: function fotos() {
+                setContent("foto's");
             },
             agenda: function agenda() {
                 setContent('agenda');
