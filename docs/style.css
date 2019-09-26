@@ -37,7 +37,7 @@ body {
 }
 #home .player {
     display: block;
-    background: #0000004a;
+    /* background: #0000004a; */
     float: left;
     clear: left;
 }
@@ -112,4 +112,10 @@ img {
 }
 #nav ul.links li a:hover {
     color: #adadad;
+}
+
+.biografie .photo {
+    background: url(https://lh3.googleusercontent.com/Ghzg5F3y4neaGEEdW-PC-022Yik13UwpzAMMPt5Fm1mbdcwDKUBTrh2PmtJUDSdeS5AKgfqXdV2QHEE6Zs1mf3qbDgPMYQ9eqQBY2rdnjmiySG2dWD5m-osVlBWmHdmgSnQLOfacWRK4N3sZmtiVaArkK_Hbt6ji9j5cp5eQ-Zmg470853FbT134FTdyg_g21J5w4bq0JhyPsHWnN18nF3TEjEHQ_K-eLY3zWqhhsf7rULBffZsPvI99EAQdZa149WsgpK654ZyH4baIIHD8qWif1DiQDfT2KGM6nhlbXM__U_TdjRXO7yqJTVRRHdhyqYRe6pHDQoAAXgugmkccuq97dyXdf-f741BOIdxKdoTULe0gjUtFyR4TfM0AlSkio3Odk3lfbayYUqXqvdV89TlOr8OUgu0HJJ_B-leQDOxwSTu4ca0o2k5hpJyK4xTOOjgV38LL8m_AKf10JuztMPKcW5KK6g83BIEqDJRM0c2mmV_hAeUJqJ671CSCAd4iPokEx0TlShNmuJogFyP8Xiqqp2Ks35D40mP-lWHQQcWBNIe3SuxTEnrwG9vzuBc8AAnnxhcovigbWJbEc2R8yljMBWLVphHOt4F1wh2TvLg0drNDKVbjfmeNi4zw0vkjDEgzKiKz5OmTSEo3ht6319Q0Y9fZuh9OzaCqskTjYxUHVuYI-SI_QNA=w2298-h1532-no);
+    background-size: cover;
+    height: 450px;
 }

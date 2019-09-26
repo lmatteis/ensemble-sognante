@@ -128,6 +128,7 @@ function setContent(page) {
     var converter = new showdown.Converter({ simplifiedAutoLink: true });
     home.style.display = 'none';
     pageDiv.style.display = 'block';
+    pageDiv.className = page;
     navHighlight(page);
     pageDiv.innerHTML = converter.makeHtml(content);
 }
