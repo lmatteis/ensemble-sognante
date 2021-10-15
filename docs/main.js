@@ -177,8 +177,8 @@ Piano kwartet in Es groot opus 47: Andante Cantabile
 ## W. A. Mozart 
 Piano kwartet in G klein KV 478: Rondeau
 <iframe width=""560"" height=""315"" src=""https://www.youtube.com/embed/sXAf1Jri-44"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>
-    "
-    Foto's	"# Foto's
+    `,
+    "Foto's":	`# Foto's
   
 [Download foto's](https://drive.google.com/uc?authuser=0&id=1vqrnGecbcSj4_jLPpXEraUm_c0jmgqAK&export=download)
 
@@ -203,13 +203,13 @@ Piano kwartet in G klein KV 478: Rondeau
     
 <div class=""photo""></div>
 
-### - 21 februari 2021 15.30 Jagthuis te Nederhorst den Berg "
-Contact	"# Contact
+### - 21 februari 2021 15.30 Jagthuis te Nederhorst den Berg`,
+        
+Contact:	`# Contact
 
 Ensemblesognante@gmail.com
 
-<div class=""photo""></div>
-    
+<div class=""photo""></div> 
     `,
   Runa: `# Ruña ‘t Hart 
     
