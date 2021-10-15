@@ -122,10 +122,7 @@ window.onload = function() {
 };
 
 function setContent(page) {
-    var p = pages[page];
-    var content = p.reduce(function(acc, curr) {
-        return acc + curr;
-    }, '');
+    var content = pages[page]
     var home = document.querySelector('#home');
     var pageDiv = document.querySelector('#page');
     // main.className = page;
