@@ -168,16 +168,16 @@ De drie strijkers leerden elkaar kennen in het strijkersensemble “The Fancy Fi
   
 ## J. Brahms 
 Piano kwartet in C klein opus 60: Scherzo
-<iframe width=""560"" height=""315"" src=""https://www.youtube.com/embed/IDcgEiVSNOU"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IDcgEiVSNOU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## R. Schumann 
 Piano kwartet in Es groot opus 47: Andante Cantabile
-<iframe width=""560"" height=""315"" src=""https://www.youtube.com/embed/gr1hCsuB_dU"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gr1hCsuB_dUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## W. A. Mozart 
 Piano kwartet in G klein KV 478: Rondeau
-<iframe width=""560"" height=""315"" src=""https://www.youtube.com/embed/sXAf1Jri-44"" frameborder=""0"" allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"" allowfullscreen></iframe>
-    `,
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sXAf1Jri-44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`,
     "Foto's":	`# Foto's
   
 [Download foto's](https://drive.google.com/uc?authuser=0&id=1vqrnGecbcSj4_jLPpXEraUm_c0jmgqAK&export=download)
