@@ -69,6 +69,7 @@ function linkify(inputText) {
 }
 
 window.onload = function() {
+    init();
     var root = null;
     var useHash = true; // Defaults to: false
 
